@@ -1,7 +1,7 @@
 export const ProjectList = [
   {
     title: "Hand-drawn Circuit Recognizer",
-    img: "/circuit-recognizer.png",
+    img: `${process.env.PUBLIC_URL}/circuit-recognizer.png`,
     description: "Engineered a system to recognize hand-drawn circuits using OpenCV and Python with 93% accuracy. Implemented HOG feature extraction and feedback loop for continuous improvement.",
     tech_stack: ["Python", "OpenCV", "Computer Vision", "Machine Learning"],
     github_url: "https://github.com/RohitChak/circuit-recognizer",
@@ -9,7 +9,7 @@ export const ProjectList = [
   },
   {
     title: "RescueConnect - Disaster Management Portal",
-    img: "/disaster-management.png",
+    img: `${process.env.PUBLIC_URL}/disaster-management.png`,
     description: "Developed a full-stack web application for disaster management with real-time alerts, geolocation, and multi-language support. Used MERN stack with Leaflet.js for mapping.",
     tech_stack: ["React.js", "Node.js", "MongoDB", "WebSockets", "Leaflet.js"],
     github_url: "https://github.com/RohitChak/rescue-connect",
@@ -17,7 +17,7 @@ export const ProjectList = [
   },
   {
     title: "SantaRun 2D Game",
-    img: "/santa-run.png",
+    img: `${process.env.PUBLIC_URL}/santa-run.png`,
     description: "Developed a festive 2D endless runner game featuring Santa Claus with jump and run mechanics, score tracking, sound effects and cool animations.",
     tech_stack: ["HTML", "CSS", "JavaScript"],
     github_url: "https://github.com/RohitChak/SantaRun",
@@ -25,7 +25,7 @@ export const ProjectList = [
   },
   {
     title: "React Kanban Board",
-    img: "/kanban-board.png",
+    img: `${process.env.PUBLIC_URL}/kanban-board.png`,
     description: "Created a simple kanban board in react.js with a minimalistic UI.",
     tech_stack: ["React.js", "HTML", "CSS"],
     github_url: "https://github.com/RohitChak/React-Kanban-Board",
@@ -33,7 +33,7 @@ export const ProjectList = [
   },
   {
     title: "BookIt - An online Library",
-    img: "/bookit.png",
+    img: `${process.env.PUBLIC_URL}/bookit.png`,
     description: "Built a simple online library portal for easy and seamless issuance of books.",
     tech_stack: ["HTML", "CSS", "JavaScript"],
     github_url: "https://github.com/RohitChak/BookIt",

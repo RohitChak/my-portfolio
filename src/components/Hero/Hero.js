@@ -72,7 +72,7 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/logo.png" // Update with your image
+                src={`${process.env.PUBLIC_URL}/logo.png`}
                 alt="Rohit Chakraborty"
               />
             </ScrollAnimation>
@@ -83,7 +83,7 @@ function Hero() {
           <ScrollLink>
             Scroll down
             <img
-              src="/scroll-down.svg"
+              src={`${process.env.PUBLIC_URL}//scroll-down.svg`}
               alt="scroll-down"
             />
           </ScrollLink>
