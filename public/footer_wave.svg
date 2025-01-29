@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="500 -29 1200 300" width="1200" height="300">
+	<title>Footer Wave</title>
+	<defs>
+		<image width="1200" height="300" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAEsAQMAAADpc9gTAAAAAXNSR0IB2cksfwAAAANQTFRF+vr/3HgtZgAAAENJREFUeJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEcDsPQAAfqwblsAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #151418 } 
+	</style>
+	<use id="Background" href="#img1" x="500" y="-29" />
+	<path id="Shape 1" class="shp0" d="M444 50C444 0 1038 -13.16 1278 350C1518 613.16 531 300 531 350L440 175L444 50Z" 
+	      transform="rotate(-5 700 150)" />
+	<path id="Shape 2" class="shp0" d="M347 -126L347 -126Z" />
+</svg>
